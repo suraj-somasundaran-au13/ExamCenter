@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+<div class="section">
+    <div class="container">
+        <h1 id="result">👨🏻‍💻</h1>
+        <h2>Manage all users in one place</h2>
+        <p>This is a exam allocation center</p>
+        <div class="flex">
+            <input type="text" class="w-50" placeholder="Enter Name" id="name" required>
+            <input type="email" class="w-50" placeholder="Enter Email" id="email" required>
+        </div>
+        <button class="btn" type="submit" onclick="add()">Add New User</button>
+        
+        <div class="alert" id="alert-danger">User Already Exist</div>
+        <div class="alert" id="alert-success">User Added!</div>
+        
+    </div>
+
+    <div class="users" id="users">
+       
+    </div>
+</div>
+
+
+
+
+
+    <script src="app.js"></script>
+
+</body>
+</html>
